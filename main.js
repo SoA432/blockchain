@@ -1,7 +1,7 @@
 const SHA256 = require('crypto-js/sha256.js')
 
 class Block {
-    /*Index - where the block sits on the chain
+    /*Index - where the block set on the chain
     timestamp - when the block was created
     data - any data that u want to assoicate with this block (transaction detail, etc)
     previousHash - previous block before this one*/
